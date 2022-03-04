@@ -66,7 +66,7 @@ const AddFlat = () => {
       formData.append('files[]', files[i]);
     }
 
-    axios.post('https://127.0.0.1:8000/api/flat', formData,{
+    axios.post('https://powerful-shore-86223.herokuapp.com/api/flat', formData,{
   config:{
     headers:{
         'Content-Type' : 'multipart/form-data'

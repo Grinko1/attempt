@@ -13,7 +13,7 @@ const initialState = {
     status: null,
     error: null,
 };
-const BASE_URL = "https://127.0.0.1:8000/api";
+const BASE_URL = "https://powerful-shore-86223.herokuapp.com/api";
 
 export const fetchBalcony = createAsyncThunk(
     "categories/fetchBalcony",

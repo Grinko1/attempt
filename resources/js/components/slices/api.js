@@ -31,7 +31,7 @@ api.interceptors.response.use(
         if (error.response.data.message === "Token is expired") {
             return axios
                 .post(
-                    "https://127.0.0.1:8000/api/auth/refresh",
+                    "https://powerful-shore-86223.herokuapp.com/api/auth/refresh",
                     {},
                     {
                         headers: {

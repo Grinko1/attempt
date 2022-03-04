@@ -6,7 +6,7 @@ const initialState = {
     status: "",
     error: "",
 };
-const BASE_URL = "https:////127.0.0.1:8000/api";
+const BASE_URL = "https://powerful-shore-86223.herokuapp.com/api";
 export const fetchApplications = createAsyncThunk(
     "applications/fetchApplications",
     async (_, { rejectWithValue }) => {

@@ -4,7 +4,7 @@ export const flatApi = createApi({
     reducerPath: "flatApi",
     tagTypes: ["Flats"],
     baseQuery: fetchBaseQuery({
-        baseUrl: "https://127.0.0.1:8000/api/",
+        baseUrl: "https://powerful-shore-86223.herokuapp.com/api/",
     }),
     endpoints: (build) => ({
         getFlats: build.query({

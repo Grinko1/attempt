@@ -112,7 +112,7 @@ const FormForEdit = () => {
         console.log(id);
 
         axios
-            .post(`https://127.0.0.1:8000/api/flats/${id}`, formData, {
+            .post(`https://powerful-shore-86223.herokuapp.com/api/flats/${id}`, formData, {
                 config: {
                     headers: {
                         "Content-Type": "multipart/form-data",

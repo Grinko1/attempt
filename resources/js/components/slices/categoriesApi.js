@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const categoriesApi = createApi({
     reducerPath: "categoriesApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: "https://127.0.0.1:8000/api/",
+        baseUrl: "https://powerful-shore-86223.herokuapp.com/api/",
     }),
     endpoints: (builder) => ({
         getAllBalcony: builder.query({
